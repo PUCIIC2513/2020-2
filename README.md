@@ -80,7 +80,8 @@ La página de [Issues](../../issues) se utilizará como foro para preguntas rela
 
 ## Etiquetas
 
-Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y clasificar tu progunta en [la(s) categoría(s) que correspondan](../../labels). Sobre todo, etiqueta como 'Resuelta' una duda cuando lo esté:
+Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y sugerir una etiqueta. Sobre todo, sugiere la etiqueta de 'Resuelta' cuando lo esté. \
+**Para sugerir una etiqueta** inclúyela al principio del título, de la forma "[ETIQUETA] Título". El equipo docente la confirmará.
 
 * [Material](../../labels/Material): para discutir sobre el material entregado por el equipo docente.
 * [Código](../../labels/C%C3%B3digo): sobre métodos, clases, sintaxis, estándares, etc.
@@ -101,12 +102,12 @@ Antes de postear:
 * Busca si alguien tiene la misma pregunta o problema.
 	* Si encuentras un post marcado como resuelto, pero no te satisface la respuesta, puedes comentar la issue y **eliminar la etiqueta** y volver a abrirla, si corresponde.
 * En caso de no encontrar un post que te sirva, lo creas presionando **[New issue](../../issues/new)**.
-* Escribe una entrada **explicando bien el problema o pregunta**.
+* Escribe una entrada **explicando bien el problema o pregunta**. Puedes sugerir etiqueta en el título.
 * Publica.
 
 Tanto al publicar como comentar, debes atenerte a las **normas del curso**. Además, debes utilizar **[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)** cuando sea necesario. Por ejemplo, cuando se necesita mostrar código o mensajes de error.
 
-Una vez resuelto el problema, da las gracias y, por favor, márcala con el **label 'Resuelta'**, pero **no la cierres**, ya que de esto se encargarán los/las ayudantes cuando corresponda :smiley:.
+Una vez resuelto el problema, da las gracias y, por favor, sugiere el **label 'Resuelta'**, pero **no la cierres**, ya que de esto se encargarán los/las ayudantes cuando corresponda :smiley:.
 
 ## Watch
 Se aconseja subscribirse a las issues mediante la opción de watch de Github, para recibir notificaciones por correo de las preguntas, que pueden ser muy útiles. Considerar que después de cada entrega se cerrarán las issues relacionadas, por lo que se conseja cancelar la subscripción temporalmente en caso de que se hayan acumulado demasiadas. Se intentará realizar el cierre de issues de una entrega el viernes inmediatamente posterior, entre 13hrs y 14hrs.
