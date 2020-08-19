@@ -43,7 +43,7 @@ El curso consta de una parte teórica, evaluada mediante un examen final, y una 
 
 Habrá 5 tareas grupales de programación, donde acumulativamente deberán desarrollar un cliente y un servidor para un juego web complejo por turnos. Las fechas a continuación son tentativas y están sujetas a cambios. \
 Las tareas serán en principio siempre con un mismo grupo de 2 o 3 integrantes. Todos quienes quieran formar un grupo de a 3 tendrán la opción, aunque sea aleatoriamente al no contestar la inscripción grupal, o al marcar la opción correspondiente en la inscripción. \
-Las tareas estarán pensadas, en términos de carga de trabajo, para 3 integrantes.
+**Las tareas estarán pensadas, en términos de carga de trabajo, para 3 integrantes.**
 
 | Evaluación | Fecha de entrega | Tópico general a abordar |
 |:----------|:----------|:----------|
@@ -56,14 +56,14 @@ Las tareas estarán pensadas, en términos de carga de trabajo, para 3 integrant
 
 ### EvPares
 
-Para cada tarea, se habilitará un cuestionario de Evaluación de Pares que estará disponible por 72 horas después de la entrega. En él, cada alumno deberá evaluar a sus compañeros entre 0 y 2 en tres aspectos que serán detallados en el cuestionario. En los grupos de a 3, se podrá bonificar con 0.2 a un compañero en uno de los tres aspectos. Luego, se obtendrá el promedio ponderado de los tres ítems para cada compañero (EPxi). Para un alumno, se promediarán las notas EPxi evaluadas por sus compañeros, para obtener su evaluación de pares EPi para la tarea. No contestar la evaluación de pares significará un descuento de 0.2 en su propia EPi, y dejará evaluados a sus compañeros con EPXi=2 (máximo sin bonificación). Luego, se calculará la nota individual de la tarea como:
+Para cada tarea, se habilitará un **cuestionario de Evaluación de Pares que estará disponible por 72 horas después de la entrega**. En él, cada alumno deberá evaluar a sus compañeros entre 0 y 2 en tres aspectos que serán detallados en el cuestionario. **En los grupos de a 3, se podrá bonificar con 0.2 a un compañero en uno de los tres aspectos**. Luego, se obtendrá el promedio ponderado de los tres ítems para cada compañero (EPxi). Para un alumno, se promediarán las notas EPxi evaluadas por sus compañeros, para obtener su evaluación de pares EPi para la tarea. **No contestar la evaluación de pares significará un descuento de 0.2 en su propia EPi**, y dejará evaluados a sus compañeros con EPXi=2 (máximo sin bonificación). Luego, se calculará la nota individual de la tarea como:
 
 ```c++
 NTi = 1 + (NGi - 1)*(EPi/2)
 ```
 Donde NTi es la nota individual de la tarea i, NGi es la nota grupal de la tarea i, y EPi es la nota evaluada por los pares para la tarea i. \
 Cualquier problema con el trabajo en el equipo se aconseja comunicarlo prontamente a el/la ayudante de seguimiento. \
-Un alumno con la evaluación de pares mínima en una tarea, obtendrá un 1.0 en ella.
+**Un alumno con la evaluación de pares mínima en una tarea, obtendrá un 1.0 en ella.**
 
 ### Calificación
 La nota de calificación final del curso se calcula de la siguiente manera:
