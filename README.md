@@ -13,6 +13,7 @@ Bienvenido al repositorio para las tareas de la sección 2 del curso PUC IIC2513
  * [Dudas](#dudas)
      * [Etiquetas](#etiquetas)
      * [Procedimiento](#procedimiento)
+     * [Watch](#watch)
      
 ## Equipo
 
@@ -79,7 +80,7 @@ La página de [Issues](../../issues) se utilizará como foro para preguntas rela
 
 ## Etiquetas
 
-Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y clasificar tu progunta en [la(s) categoría(s) que correspondan](../../labels):
+Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y clasificar tu progunta en [la(s) categoría(s) que correspondan](../../labels). Sobre todo, etiqueta como 'Resuelta' una duda cuando lo esté:
 
 * [Material](../../labels/Material): para discutir sobre el material entregado por el equipo docente.
 * [Código](../../labels/C%C3%B3digo): sobre métodos, clases, sintaxis, estándares, etc.
@@ -90,6 +91,7 @@ Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categoría
 * [Inválida](../../labels/Inv%C3%A1lida): la pregunta no cumple los estándares o viola el procedimiento descrito abajo.
 * [Meta-pregunta](../../labels/Meta-Pregunta): pregunta sobre cómo y qué preguntar.
 * [Tengo un error](../../labels/Tengo%20un%20error): para preguntar sobre errores o bugs en códigos antes de caer en la desesperación (pero luego de haber buscado apropiadamente en la Web...).
+* [Resuelta](../../labels/Resuelta): para preguntas que hayan sido resueltas. Con ella se evita cerrar preguntas resueltas que puedan seguir siendo muy útiles, por estar relacionadas a la entrega presente.
 
 ## Procedimiento
 
@@ -97,11 +99,14 @@ Antes de postear:
 * Busca en Internet para encontrar la solución.
 * Si pasan horas y el problema persiste, entra a [Issues](../../issues).
 * Busca si alguien tiene la misma pregunta o problema.
-	* Si encuentras un post marcado como resuelto, pero no te satisface la respuesta, puedes comentar la issue y **volver a abrirla**.
+	* Si encuentras un post marcado como resuelto, pero no te satisface la respuesta, puedes comentar la issue y **eliminar la etiqueta** y volver a abrirla, si corresponde.
 * En caso de no encontrar un post que te sirva, lo creas presionando **[New issue](../../issues/new)**.
 * Escribe una entrada **explicando bien el problema o pregunta**.
 * Publica.
 
 Tanto al publicar como comentar, debes atenerte a las **normas del curso**. Además, debes utilizar **[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)** cuando sea necesario. Por ejemplo, cuando se necesita mostrar código o mensajes de error.
 
-Una vez resuelto el problema, da las **gracias** y **cierra el issue** :smiley:.
+Una vez resuelto el problema, da las gracias y, por favor, márcala con el **label 'Resuelta'**, pero **no la cierres**, ya que de esto se encargarán los/las ayudantes cuando corresponda :smiley:.
+
+## Watch
+Se aconseja subscribirse a las issues mediante la opción de watch de Github, para recibir notificaciones por correo de las preguntas, que pueden ser muy útiles. Considerar que después de cada entrega se cerrarán las issues relacionadas, por lo que se conseja cancelar la subscripción temporalmente en caso de que se hayan acumulado demasiadas. Se intentará realizar el cierre de issues de una entrega el viernes inmediatamente posterior, entre 13hrs y 14hrs.
