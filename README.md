@@ -10,7 +10,7 @@ Bienvenido al repositorio para las tareas de la sección 2 del curso PUC IIC2513
      * [Tareas](#profesor)
      * [Evaluación de Pares](#evpares)
      * [Calificación](#calificación)
- * [Foro](#foro)
+ * [Dudas](#dudas)
      * [Etiquetas](#etiquetas)
      * [Procedimiento](#procedimiento)
      
@@ -73,7 +73,7 @@ NF = 0.35*NE + 0,65*NT
 ```
 Donde NF es nota final, NE es nota de examen y NT es nota individual de tareas.
 
-# Foro
+# Dudas
 
 La página de [Issues](../../issues) se utilizará como foro para preguntas relacionadas a las tareas y su desarrollo. Para dudas administrativas y de materia se debe usar el foro de Canvas. Para problemas personales o casos particulares que no puedan servir a sus compañeros/as, pueden escribir a su ayudante de seguimiento, al ayudante coordinador o al profesor.
 
