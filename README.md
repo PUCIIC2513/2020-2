@@ -21,7 +21,7 @@ Bienvenido al repositorio para las tareas de la sección 2 del curso PUC IIC2513
 
 | Nombre               |  Email         |
 |:-------------------- |:--------------|
-| Hernán Cabrera | yadran@ing.puc.cl |
+| Hernán Cabrera | hernan.cabrera@uc.cl |
 
 
 ### Ayudantes
