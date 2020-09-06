@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "title": "My first post",
+      "description": "I'm so happy to learn more about the web",
+      "id": 1
+    },
+    {
+      "title": "Have you heared about react?",
+      "description": "React is a powerfull frontend javascript library that let you do amazing stuffs",
+      "id": 2
+    },
+    {
+      "title": "A boring post",
+      "description": "This is a boring post, no much to read about",
+      "id": 3
+    },
+    {
+      "title": "Another boring post",
+      "description": "Nothing else to say :(",
+      "id": 4
+    }
+  ]
+}

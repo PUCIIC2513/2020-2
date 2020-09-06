@@ -1,0 +1,16 @@
+{
+  "name": "capsula-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-client": "live-server --port=3000 --open=./client/",
+    "start-server": "json-server -p 3001 -w server/db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "live-server": "^1.2.1"
+  }
+}
