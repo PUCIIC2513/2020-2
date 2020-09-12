@@ -49,11 +49,11 @@ Las tareas serán en principio siempre con un mismo grupo de 2 o 3 integrantes. 
 | Evaluación | Fecha de entrega | Tópico general a abordar |
 |:----------|:----------|:----------|
 | Tarea 1 |	miércoles 02 de septiembre 20:00| Diseño - mockup - maqueta |
-| Tarea 2 | miércoles 30 de septiembre 20:00 | Estructura (HTML) documentación. Diseño detallado |
-| Tarea 3 | jueves 15 de octubre 20:00 | Cliente- servidor iteración 1 (reglas de negocio) |
-| Tarea 4 | miércoles 4 de noviembre 20:00 | Cliente- servidor iteración 1 (usabilidad y eventos) |
-| Tarea 5 | jueves 19 de noviembre 20:00 | Cliente- servidor iteración 1 (usabilidad, eventos, seguridad) |
-| Tarea 6 | martes 01 de diciembre 20:00 | Entrega final |
+| Tarea 2 | miércoles 30 de septiembre 21:30 | Estructura (HTML) documentación. Diseño detallado |
+| Tarea 3 | miércoles 14 de octubre 21:30 | Cliente- servidor iteración 1 (reglas de negocio) |
+| Tarea 4 | viernes 30 de octubre 21:30 | Cliente- servidor iteración 1 (usabilidad y eventos) |
+| Tarea 5 | viernes 13 de noviembre 21:30 | Cliente- servidor iteración 1 (usabilidad, eventos, seguridad) |
+| Tarea 6 | martes 01 de diciembre 21:30 | Entrega final |
 
 ### EvPares
 
