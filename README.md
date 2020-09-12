@@ -42,17 +42,17 @@ El curso consta de una parte teórica, evaluada mediante un examen final, y una 
 
 ### Tareas
 
-Habrá 5 tareas grupales de programación, donde acumulativamente deberán desarrollar un cliente y un servidor para un juego web complejo por turnos. Las fechas a continuación son tentativas y están sujetas a cambios. \
+Habrá 5 tareas grupales de programación, donde acumulativamente deberán desarrollar un cliente y un servidor para un juego web complejo por turnos. Las fechas a continuación son tentativas y están sujetas a cambios (se presenta segunda versión). \
 Las tareas serán en principio siempre con un mismo grupo de 2 o 3 integrantes. Todos quienes quieran formar un grupo de a 3 tendrán la opción, aunque sea aleatoriamente al no contestar la inscripción grupal, o al marcar la opción correspondiente en la inscripción. \
 **Las tareas estarán pensadas, en términos de carga de trabajo, para 3 integrantes.**
 
 | Evaluación | Fecha de entrega | Tópico general a abordar |
 |:----------|:----------|:----------|
 | Tarea 1 |	miércoles 02 de septiembre 20:00| Diseño - mockup - maqueta |
-| Tarea 2 | miércoles 16 de septiembre 20:00 | Estructura (HTML) documentación. Diseño detallado |
-| Tarea 3 | jueves 08 de octubre 20:00 | Cliente- servidor iteración 1 (reglas de negocio) |
-| Tarea 4 | miércoles 28 de octubre 20:00 | Cliente- servidor iteración 1 (usabilidad y eventos) |
-| Tarea 5 | jueves 12 de noviembre 20:00 | Cliente- servidor iteración 1 (usabilidad, eventos, seguridad) |
+| Tarea 2 | miércoles 30 de septiembre 20:00 | Estructura (HTML) documentación. Diseño detallado |
+| Tarea 3 | jueves 15 de octubre 20:00 | Cliente- servidor iteración 1 (reglas de negocio) |
+| Tarea 4 | miércoles 4 de noviembre 20:00 | Cliente- servidor iteración 1 (usabilidad y eventos) |
+| Tarea 5 | jueves 19 de noviembre 20:00 | Cliente- servidor iteración 1 (usabilidad, eventos, seguridad) |
 | Tarea 6 | martes 01 de diciembre 20:00 | Entrega final |
 
 ### EvPares
