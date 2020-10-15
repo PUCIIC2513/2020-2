@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/PUCIIC2513/2020-2/issues"
   },
-  "homepage": "https://github.com/PUCIIC2513/2020-2#readme"
+  "homepage": "https://github.com/PUCIIC2513/2020-2#readme",
+  "dependencies": {
+    "koa": "^2.13.0"
+  }
 }
