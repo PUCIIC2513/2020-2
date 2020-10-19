@@ -1,7 +1,5 @@
 require('dotenv').config()
 
-console.log("cacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-
 const config = {
   default: {
     username: process.env.DB_USERNAME,

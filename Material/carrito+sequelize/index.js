@@ -4,7 +4,7 @@ var session = require('koa-session');
 const koa = require('koa');
 const koaRouter = require('koa-router');
 const koaBody = require('koa-body');
-const koaOrm = require('koa-orm')(require('./config/config.js'));
+//const koaOrm = require('koa-orm')(require('./config/config.js'));
 
 const app = new koa()
 const router = new koaRouter()
