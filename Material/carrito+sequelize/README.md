@@ -1,6 +1,6 @@
 # README
 
-Hola! El video lo pueden encontrar en: [link].
+Hola! El video lo pueden encontrar en: https://drive.google.com/file/d/14yHv1T1xZpfYzNYrAXhMHgxMdQdcSGtt/view?usp=sharing
 
 En esta capsula se les enseña lo básico para la creación de modelos, asociaciones y seeds. Les recomiendo revisar el link recomendado al final del readme e investigar sobre koa-orm. Cualquier duda que tengan no duden en hacermela llegar, mi mail es: cschavez@uc.cl.
 
