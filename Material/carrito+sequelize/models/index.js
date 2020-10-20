@@ -11,24 +11,6 @@ const db = {};
 const sequelizeConfig = (config.use_env_variable) ? process.env[config.use_env_variable] : config;
 const sequelize = new Sequelize(sequelizeConfig);
 
-// let sequelize;
-// if (config.use_env_variable) {
-//   sequelize = new Sequelize(process.env[config.use_env_variable], {
-//     hostname: 'localhost',
-//     dialect: 'postgres',
-//   }, config);
-// } else {
-//   sequelize = new Sequelize('x-change-1', 'cami', '123456', {
-//     hostname: 'localhost',
-//     dialect: 'postgres'
-//   }, config);
-// }
-
-// const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
-//   host: 'localhost',
-//   dialect: 'postgres' // pick one of 'mysql','sqlite','postgres','mssql',
-// });
-
 fs
   .readdirSync(__dirname)
   .filter(file => {

@@ -3,18 +3,17 @@
 var session = require('koa-session');
 const koa = require('koa');
 const koaRouter = require('koa-router');
-const koaBody = require('koa-body');
-//const koaOrm = require('koa-orm')(require('./config/config.js'));
+const koaBody = require('koa-body')();
 
 const app = new koa()
 const router = new koaRouter()
 
 app.keys = ['Shh, its a secret!'];
 app.use(session(app));  // Include the session middleware
+
 const db = require('./models');
 
 const PORT = process.env.PORT || 3000;
-
 
 db.sequelize
   .authenticate()
@@ -30,8 +29,9 @@ db.sequelize
   })
   .catch((err) => console.error('Unable to connect to the database:', err));
   
+
 // ADVERTENCIA WARNING: Fuera de este ejemplo, routers deberían ser llamados desde otro archivo
-router.get('koala', '/', (ctx) => {
+router.get('carrito', '/', (ctx) => {
     ctx.body = "Welcome! To the Koala Book of Everything!"
     var n = ctx.session.views || 0;
     ctx.session.views = ++n;
@@ -42,7 +42,7 @@ router.get('koala', '/', (ctx) => {
        ctx.body = "You've visited this page " + n + " times!";
 })
 
-router.get('koala', '/count', (ctx) => {
+router.get('carrito', '/count', (ctx) => {
     ctx.body = "Welcome! To the Koala Book of Everything!"
     var n = ctx.session.views || 0;
     ctx.session.views = ++n;
@@ -53,7 +53,7 @@ router.get('koala', '/count', (ctx) => {
        ctx.body = "You've visited this page " + n + " times!";
 })
 
-router.get('koala', '/count2', (ctx) => {
+router.get('carrito', '/count2', (ctx) => {
     ctx.body = "Welcome! To the Koala Book of Everything!"
     var n = ctx.session.views2 || 0;
     ctx.session.views2 = ++n;
@@ -64,20 +64,19 @@ router.get('koala', '/count2', (ctx) => {
        ctx.body = "You've visited this page " + n + " times!";
 })
 
-router.get('koala', '/orders/:id', async (ctx) => {
-
-   // const { Orders } = ctx.orm('order');
-   // const order = await Orders.findByPk(ctx.params.id);
-   const order = await db.order.findAll();
-   console.log(order);
+router.get('carrito', '/orders/:id', async (ctx) => {
+   const order = await db.order.findByPk(ctx.params.id);
    ctx.body = order;
+})
 
-   
+router.post('carrito', '/orders/new', koaBody, async (ctx) => {
+   const body = await ctx.request.body; 
+   const new_order = await db.order.create(body);
+   ctx.body = new_order;
 
-});
+})
 
 app.use(router.routes())
     .use(router.allowedMethods())
   
-//app.listen(3000, () => console.log('running on port 3000'))
-
+// app.listen(3000, () => console.log('running on port 3000'))

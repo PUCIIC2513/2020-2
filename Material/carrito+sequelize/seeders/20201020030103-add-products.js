@@ -2,7 +2,6 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    
     const products_array = [];
 
     products_array.push({
@@ -30,7 +29,6 @@ module.exports = {
     })
 
     return queryInterface.bulkInsert('products', products_array);
-    
   },
 
   down: async (queryInterface, Sequelize) => {

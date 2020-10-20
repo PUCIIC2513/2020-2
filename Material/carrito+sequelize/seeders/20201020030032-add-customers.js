@@ -1,23 +1,24 @@
 'use strict';
 
 module.exports = {
-  up: async (queryInterface) => {
+  up: async (queryInterface, Sequelize) => {
+    const customers_array = [];
 
-    const costumers_array = [];
-
-    costumers_array.push({
+    customers_array.push({
       name: 'Juan',
+      email: 'j@uc.cl',
       createdAt: new Date(),
       updatedAt: new Date(),
     });
 
-    costumers_array.push({
+    customers_array.push({
       name: 'Fernanda',
+      email: 'f@uc.cl',
       createdAt: new Date(),
       updatedAt: new Date(),
     })
 
-    return queryInterface.bulkInsert('costumers', costumers_array);
+    return queryInterface.bulkInsert('customers', customers_array);
   },
 
   down: async (queryInterface, Sequelize) => {
