@@ -3,7 +3,8 @@
 var session = require('koa-session');
 const koa = require('koa');
 const koaRouter = require('koa-router');
-const koaBody = require('koa-body')();
+const koaBody = require('koa-body');
+const routes = require('./routes');
 
 const app = new koa()
 const router = new koaRouter()
@@ -28,7 +29,10 @@ db.sequelize
     });
   })
   .catch((err) => console.error('Unable to connect to the database:', err));
-  
+
+app.use(koaBody());
+app.context.db = db
+app.use(routes.routes())
 
 // ADVERTENCIA WARNING: Fuera de este ejemplo, routers deberían ser llamados desde otro archivo
 router.get('carrito', '/', (ctx) => {
@@ -64,19 +68,6 @@ router.get('carrito', '/count2', (ctx) => {
        ctx.body = "You've visited this page " + n + " times!";
 })
 
-router.get('carrito', '/orders/:id', async (ctx) => {
-   const order = await db.order.findByPk(ctx.params.id);
-   ctx.body = order;
-})
-
-router.post('carrito', '/orders/new', koaBody, async (ctx) => {
-   const body = await ctx.request.body; 
-   const new_order = await db.order.create(body);
-   ctx.body = new_order;
-
-})
-
 app.use(router.routes())
-    .use(router.allowedMethods())
   
 // app.listen(3000, () => console.log('running on port 3000'))
