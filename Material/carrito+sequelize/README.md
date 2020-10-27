@@ -1,4 +1,4 @@
-# README
+# Parte 1 (_Sequelize_)
 
 Hola! El video lo pueden encontrar en: https://drive.google.com/file/d/14yHv1T1xZpfYzNYrAXhMHgxMdQdcSGtt/view?usp=sharing
 
@@ -31,3 +31,17 @@ En esta capsula se les enseña lo básico para la creación de modelos, asociaci
 
 ## Links Recomendados
 - https://medium.com/@andrewoons/how-to-define-sequelize-associations-using-migrations-de4333bf75a7
+
+---
+
+# Parte 2 (_Endpoints_)
+
+La parte 2, asociada al uso de endpoints, la pueden encontrar en: https://drive.google.com/file/d/1t6jsq5upWgBSlE0le0RIH6JNt2ItAMYq/view?usp=sharing.
+
+Esta parte tiene por objetivo mostrarles el uso básico de endpoints en Koa, realizando la implementación de los métodos GET, POST, PATCH y DELETE. Paralelamente, se realiza una modularización de las rutas, de forma que quede más ordenado el código. 
+
+Mucho éxito con el proyecto! 
+
+## Links de interés
+- Funciones básicas de sequelize: https://sequelize.org/master/manual/model-querying-basics.html
+- Docs Api Koa: https://github.com/koajs/koa/tree/master/docs/api
