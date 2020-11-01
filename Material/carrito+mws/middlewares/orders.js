@@ -2,16 +2,22 @@ const orderGuard = async (ctx, next) => {
   const { currentCustomer } = ctx;
   const customerId = currentCustomer.dataValues.id;
 
-  const order = await ctx.db.order.findByPk(ctx.params.id);
+  try {
+    const order = await ctx.db.order.findByPk(ctx.params.id);
 
-  if (customerId !== order.customerId) {
+    if (customerId !== order.customerId) {
+      return (ctx.body = {
+        error: 'No puedes ver/modificar ordenes de otros clientes',
+      });
+    }
+
+    ctx.currentOrder = order;
+    return next(ctx);
+  } catch (error) {
     return (ctx.body = {
-      error: 'No puedes ver/modificar ordenes de otros clientes',
+      error: 'No existe una orden con el id especificado',
     });
   }
-
-  ctx.currentOrder = order;
-  return next(ctx);
 };
 
 const validateStock = async (ctx, next) => {
