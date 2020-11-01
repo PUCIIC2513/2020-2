@@ -22,6 +22,7 @@
   "homepage": "https://github.com/PUCIIC2513/2020-2#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.0",
     "koa-body": "^4.2.0",

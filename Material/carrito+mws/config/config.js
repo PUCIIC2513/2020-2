@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const config = {
   default: {
     username: process.env.DB_USERNAME,
@@ -11,13 +13,11 @@ const config = {
     database: process.env.DB_NAME,
     dialect: 'postgres',
     host: process.env.DB_HOST || '127.0.0.1',
-
   },
   test: {
     extend: 'default',
     database: process.env.DB_NAME,
     dialect: 'postgres',
-
   },
   production: {
     dialect: 'postgres',
