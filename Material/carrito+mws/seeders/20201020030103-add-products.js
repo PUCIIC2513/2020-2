@@ -2,33 +2,36 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    const products_array = [];
+    const productsArray = [];
 
-    products_array.push({
+    productsArray.push({
       name: 'Jeans',
       description: 'Azul',
       price: 10000,
+      stock: Math.floor(Math.random() * 10),
       createdAt: new Date(),
       updatedAt: new Date(),
     });
 
-    products_array.push({
+    productsArray.push({
       name: 'Tallarines',
       description: 'de espinaca con tomate',
       price: 800,
+      stock: Math.floor(Math.random() * 10),
       createdAt: new Date(),
       updatedAt: new Date(),
-    })
+    });
 
-    products_array.push({
+    productsArray.push({
       name: 'Libro',
       description: '320 páginas',
       price: 5000,
+      stock: Math.floor(Math.random() * 10),
       createdAt: new Date(),
       updatedAt: new Date(),
-    })
+    });
 
-    return queryInterface.bulkInsert('products', products_array);
+    return queryInterface.bulkInsert('products', productsArray);
   },
 
   down: async (queryInterface, Sequelize) => {
@@ -38,5 +41,5 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-  }
+  },
 };
