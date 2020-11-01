@@ -1,5 +1,7 @@
 const KoaRouter = require('koa-router');
 
+const bcrypt = require('bcrypt');
+
 const customerAuth = require('../middlewares/auth');
 const customerGuard = require('../middlewares/customers');
 
@@ -12,6 +14,8 @@ router.get('customers', '/:id', customerAuth, customerGuard, async (ctx) => {
 
 router.post('customers.new', '/new', async (ctx) => {
   const body = await ctx.request.body;
+  const { password } = body;
+  body.password =  bcrypt.hashSync(password, 10);
   const new_customer = await ctx.db.customer.create(body);
   ctx.body = new_customer;
 });

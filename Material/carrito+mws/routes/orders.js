@@ -30,11 +30,11 @@ router.post(
     const { currentOrder } = ctx;
     const { products } = ctx.request.body;
 
-    products.map(async (productId) => {
+    await Promise.all(products.map(async (productId) => {
       const product = await ctx.db.product.findByPk(productId);
       await product.update({ stock: product.stock - 1 });
       await currentOrder.addProduct(product);
-    });
+    }));
 
     const orderProducts = await currentOrder.getProducts();
     ctx.body = { order: currentOrder, products: orderProducts };
