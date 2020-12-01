@@ -53,7 +53,7 @@ Las tareas serán en principio siempre con un mismo grupo de 2 o 3 integrantes. 
 | Tarea 3 | miércoles 14 de octubre 21:30 | Cliente- servidor iteración 1 (reglas de negocio) |
 | Tarea 4 | lunes 2 de noviembre 23:59 | Cliente- servidor iteración 1 (usabilidad y eventos) |
 | Tarea 5 | martes 17 de noviembre 21:30 | Cliente- servidor iteración 1 (usabilidad, eventos, seguridad) |
-| Tarea 6 | martes 01 de diciembre 21:30 | Entrega final |
+| Tarea 6 | miércolas 02 de diciembre 21:30 | Entrega final |
 
 ### EvPares
 
